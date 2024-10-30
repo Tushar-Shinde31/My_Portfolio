@@ -36,3 +36,19 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+ 
+
+function showSuccessMessage() {
+  const successMessage = document.getElementById('successMessage');
+  successMessage.style.display = 'block';
+
+  // Optionally hide the form after submission
+  const contactForm = document.getElementById('contactForm');
+  contactForm.style.display = 'none';
+
+  // Remove the message after a few seconds
+  setTimeout(() => {
+    successMessage.style.display = 'none';
+    contactForm.style.display = 'block';
+  }, 5000); // 5 seconds
+}

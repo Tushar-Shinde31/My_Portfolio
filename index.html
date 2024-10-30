@@ -87,7 +87,7 @@
         <h1 class="heading-primary">Hey, My name is Tushar Shinde</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            I'm Tushar Shinde, a developer with a passion for building impactful, user-focused solutions. My projects range from Syllabus Integration with Study Resources to Connect Banks, aimed at enhancing user experience and functionality across sectors. With strengths in full-stack development and machine learning, I tackle problems with both logic and creativity.
+            Aspiring AI & Data Science Engineer | Software Developer | Problem-Solving Enthusiast | Machine Learning
             
             
           </p>
@@ -137,6 +137,16 @@
           </a>
         </div>
         <div class="home-hero__social">
+          <a href="https://leetcode.com/u/Tushar-shinde31/" 
+          class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/leetcode_icon_final.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
           <a
             href="https://www.instagram.com/tusharryaar/profilecard/?igsh=MTZmeTBmZ2MxMWJsdw%3D%3D"
             class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
@@ -149,39 +159,42 @@
           </a>
         </div>
       </div>
+      
+
       <div class="home-hero__mouse-scroll-cont">
         <div class="mouse"></div>
       </div>
     </section>
     <section id="about" class="about sec-pad">
       <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
+        <!-- <h2 class="heading heading-sec heading-sec__mb-med"> -->
+          <!-- <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
-            I'm Tushar Shinde, a developer with a passion for building impactful, user-focused solutions. My projects range from Syllabus Integration with Study Resources to Connect Banks, aimed at enhancing user experience and functionality across sectors. With strengths in full-stack development and machine learning, I tackle problems with both logic and creativity.
+            I'm Tushar Shinde, an enthusiastic developer specializing in artificial intelligence, data science, and machine learning. With a strong background in C++, JavaScript, and Python, I enjoy creating applications using the MERN stack. I thrive on tackling challenges and am dedicated to continuous learning in the tech field. Let's connect!
             
-          </span>
+          </span> -->
         </h2>
         <div class="about__content">
           <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
+            <h3 class="about__content-title">About Me</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
                 Hey! It's
                 <strong>Tushar Shinde</strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Los Angeles. I've done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong>digital products </strong>
-                for both business and consumer use.
+                and I'm a <strong> Software Developer and passionate in Artificial Intelligence and Data Scince </strong>as well as in <strong>Machine Learning</strong> feild.I have a solid foundation in <strong>C++</strong> 
+                <strong>JavaScript</strong>
+                <strong>TypeScript</strong>
+                and
+                <strong>Python</strong>
+               and I enjoy building applications using the
+               <strong>MERN Stack</strong>
+               with
+               <strong>React JS</strong>
+               and
+               <strong>Next JS.</strong>
               </p>
               <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to
-                <strong>contact</strong> me here.
+                Currently, I’m deepening my knowledge in <strong>artificial intelligence</strong>, <strong>machine learning</strong> and <strong>data science</strong>. I love tackling complex problems—having solved over <strong>250+ problems  on LeetCode</strong>—and I thrive in <strong>collaborative environments</strong>.
               </p>
             </div>
             <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
@@ -210,6 +223,8 @@
               <div class="skills__skill">Linux</div>
               <div class="skills__skill">MySQL</div>
               <div class="skills__skill">MongoDB</div>
+              <div class="skills__skill">PostgreSQL</div>
+
             </div>
           </div>
         </div>
@@ -220,8 +235,7 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Discover my projects,where I leverage my skills in software development.Each project reflects my dedication to innovation and problem-solving.
           </span>
         </h2>
 
@@ -292,6 +306,14 @@
               >
             </div>
           </div>
+          <div class="projects__more">
+            <a
+              href="https://github.com/Tushar-Shinde31?tab=repositories"
+              class="btn btn--med btn--theme btn--more"
+              target="_blank"
+            >
+              Check Out For More Projects
+            </a>
         </div>
       </div>
       <!-- <br>
@@ -303,12 +325,11 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Android, Web Development.
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="tusharshinde2250@gmail.com" class="contact__form" id="contactForm">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -343,13 +364,27 @@
                 id="message"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
+            <button type="button" class="btn btn--theme contact__btn" onclick="showSuccessMessage()">
               Submit
             </button>
           </form>
+          
+          <div class="success-message" id="successMessage">
+            Thank you! Your message has been sent successfully.
+          </div>
         </div>
+    
+        <!-- Cool Resume Button After the Form -->
+        <div class="resume-button-container">
+          <a href="https://drive.google.com/drive/home" target="_blank" class="resume-button">
+            See My Resume
+          </a>
+        </div>
+    
       </div>
     </section>
+    
+    
     <footer class="main-footer">
       <div class="main-container">
         <div class="main-footer__upper">
@@ -383,6 +418,13 @@
                 <img
                   class="main-footer__icon"
                   src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://leetcode.com/u/Tushar-shinde31/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/leet.svg"
                   alt="icon"
                 />
               </a>
