@@ -29,19 +29,6 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 - **Visualization**: Recharts, D3.js
 - **Hosting**: Vercel for frontend, Heroku for backend
 
-
-
-## 📚 Projects
-
-### Admin Dashboard
-A responsive admin dashboard with animated graphs and charts. Built using ReactJS, TailwindCSS, Recharts, and Framer Motion.
-
-### Twitter Sentiment Analysis
-Analyzed sentiment trends on X data using NLP. Categorized tweets into positive, neutral, and negative sentiments and visualized trends over time. [GitHub Repository](https://github.com/yourusername/twitter-sentiment-analysis)
-
-### Blood Group Detection Using Fingerprint (BGDUF)
-Developed a machine learning model to detect blood groups from fingerprint data. Hosted on Gradio with a Next.js-powered user interface. [GitHub Repository](https://github.com/yourusername/bgduf-project)
-
 ## 📄 How to Run Locally
 
 1. Clone the repository:
@@ -70,7 +57,7 @@ Developed a machine learning model to detect blood groups from fingerprint data.
    ```
 
 ## 🌐 Live Demo
-Check out the live demo of my portfolio: [Portfolio Website](https://your-portfolio.vercel.app)
+Check out the live demo of my portfolio: [Portfolio Website](https://tusharsdoc.netlify.app/)
 
 ## 🤝 Contributing
 
